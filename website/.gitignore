@@ -1,0 +1,13 @@
+__pycache__/
+venv/
+.env
+.flaskenv
+instance/
+*.pyc
+*.pyo
+.DS_Store
+*.db
+*.sqlite3
+# 如果有其他日志或临时文件
+*.log
+.tmp
