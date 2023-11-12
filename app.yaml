@@ -1,6 +1,7 @@
 runtime: python312
 api_version: 1
 threadsafe: true
+entrypoint: python app.py
 
 handlers:
 - url: /
