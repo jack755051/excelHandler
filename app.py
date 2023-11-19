@@ -134,12 +134,12 @@ def calculate_final_results(df):
     # return df
 
 
-@app.route("/", methods=["GET"])
+@app.route("/website", methods=["GET"])
 def index():
     return render_template("index.html")
 
 
-@app.route("/upload", methods=["GET", "POST"])
+@app.route("/website/upload", methods=["GET", "POST"])
 def upload():
     # 檢查是否有文件在請求中
     if "file" not in request.files:
